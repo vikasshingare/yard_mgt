@@ -1,0 +1,39 @@
+{
+  "name": "icd-yard-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ICD Yard Management System - shared React Native web/mobile client and Node.js API",
+  "scripts": {
+    "start": "expo start --web",
+    "start:web": "expo start --web",
+    "start:mobile": "expo start --host lan",
+    "api": "node --watch server/src/index.js",
+    "user:create": "node server/scripts/create-user.js",
+    "user:seed-roles": "node server/scripts/seed-role-users.js",
+    "db:migrate": "node server/scripts/migrate-workflows.js",
+    "db:start": "node server/scripts/start-local-mysql.js",
+    "build:web": "expo export --platform web",
+    "db:setup": "node server/scripts/setup-db.js"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.3",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "expo": "^58.0.17",
+    "expo-camera": "~58.0.12",
+    "expo-document-picker": "~58.0.4",
+    "expo-file-system": "~58.0.10",
+    "expo-font": "~58.0.9",
+    "expo-secure-store": "^58.0.2",
+    "expo-sharing": "~58.0.20",
+    "expo-status-bar": "~58.0.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-native": "0.88.0",
+    "react-native-web": "^0.21.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~19.3.0",
+    "typescript": "~6.0.3"
+  }
+}

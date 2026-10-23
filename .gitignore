@@ -1,0 +1,11 @@
+node_modules/
+server/node_modules/
+.expo/
+dist/
+.env
+server/.env
+.mysql-data/
+.mysql-yms-data/
+mysql-data/
+.mariadb-recovery/
+*.log

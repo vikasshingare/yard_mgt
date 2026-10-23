@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "ICD Yard Management",
+    "slug": "icd-yard-management",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow Yardwise to scan container labels."
+        }
+      ],
+      "expo-font",
+      "expo-sharing"
+    ],
+    "web": {
+      "bundler": "metro",
+      "name": "ICD Yard Management"
+    }
+  }
+}

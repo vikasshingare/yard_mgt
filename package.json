@@ -12,6 +12,7 @@
     "user:seed-roles": "node server/scripts/seed-role-users.js",
     "db:migrate": "node server/scripts/migrate-workflows.js",
     "db:start": "node server/scripts/start-local-mysql.js",
+    "build": "expo export --platform web",
     "build:web": "expo export --platform web",
     "db:setup": "node server/scripts/setup-db.js"
   },

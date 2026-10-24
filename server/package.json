@@ -2,7 +2,11 @@
   "name": "icd-yms-api",
   "version": "1.0.0",
   "private": true,
-  "scripts": { "start": "node src/index.js", "dev": "node --watch src/index.js" },
+  "scripts": {
+    "build": "node -e \"console.log('API has no compile step')\"",
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
